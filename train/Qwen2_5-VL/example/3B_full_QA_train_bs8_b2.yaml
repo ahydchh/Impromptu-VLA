@@ -1,0 +1,29 @@
+bf16: true
+cutoff_len: 4096
+dataset: QA_nuscenes_train_b2_exp11
+ddp_timeout: 180000000
+deepspeed: train/utils/deepspeed/ds_z3_config.json
+do_train: true
+eval_steps: 100
+eval_strategy: 'no'
+finetuning_type: full
+gradient_accumulation_steps: 8
+image_resolution: 262144
+learning_rate: 5.0e-06
+logging_steps: 10
+lr_scheduler_type: cosine
+model_name_or_path: 
+num_train_epochs: 2.0
+output_dir: 
+overwrite_cache: true
+overwrite_output_dir: false
+per_device_eval_batch_size: 1
+per_device_train_batch_size: 1
+plot_loss: true
+preprocessing_num_workers: 32
+save_steps: 1000
+stage: sft
+template: qwen2_vl
+val_size: 0.01
+video_resolution: 16384
+warmup_ratio: 0.03

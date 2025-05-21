@@ -1,0 +1,7 @@
+setup.py
+deformable_aggregation_ext.egg-info/PKG-INFO
+deformable_aggregation_ext.egg-info/SOURCES.txt
+deformable_aggregation_ext.egg-info/dependency_links.txt
+deformable_aggregation_ext.egg-info/top_level.txt
+src/deformable_aggregation.cpp
+src/deformable_aggregation_cuda.cu
